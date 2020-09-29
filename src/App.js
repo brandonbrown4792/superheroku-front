@@ -4,8 +4,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <SuperheroList />
+    <div className='App'>
+      <div className='container'>
+        <SuperheroList />
+      </div>
     </div>
   );
 }
